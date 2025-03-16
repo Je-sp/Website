@@ -1,0 +1,144 @@
+body {
+  background: #FAF3F0;
+  color: #2E2E2E;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin-left: 375px;
+  text-align: center;
+  background: linear-gradient(135deg, #2E3192, #1BFFFF);
+  color: white;
+  padding: 30px 20px;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#subtitle {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+}
+
+#childhoodTitle {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+}
+
+#teenageTitle {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+}
+
+#collegeTitle {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+.sidebar {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+  font-size: 20px;
+  width: 200px;
+  height: 100vh;
+  background-color: #FFF;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.sidebar h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2E3192;
+  text-align: center;
+}
+
+.sidebar .bar-item {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+  display: block;
+  padding: 10px;
+  color: #2E2E2E;
+  transition: background-color 0.3s;
+}
+
+.sidebar .bar-item:hover {
+  background-color: #f0f0f0;
+}
+
+section {
+  text-align: left;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+#childhood {
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+  font-size: 1.9em;
+  font-family: 'Lora', serif;
+  color: #2E3192;
+  text-align: center;
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Montserrat, Poppins, sans-serif;
+  line-height: 1.8;
+  font-size: 24px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2E3192;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0400ff;
+}
+
+footer {  
+  font-family: 'Ubuntu Mono', 'Hedvig Letters Serif', serif;  
+  background-color: #1A1A40;  
+  color: white;  
+  padding: 20px;  
+  width: 100%;  
+  font-size: 1em;  
+  margin-top: 20px;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  text-align: center;  
+  position: relative;  
+}
